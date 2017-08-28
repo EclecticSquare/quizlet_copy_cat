@@ -1,6 +1,22 @@
 body {
   margin: 0;
 }
+
 .container {
   background-color: #4257B2;
+  position:absolute; /* This and the following lines to z-index make the container reach to the top of the page*/
+    top:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1;
+}
+
+.topNavBar {
+  color: white;
+}
+
+.logo {
+  font-weight: 600;
+  margin-left: 50px;
 }
