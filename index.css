@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: futura, sans-serif,monospace;
 }
 
 .container {
@@ -14,9 +15,95 @@ body {
 
 .topNavBar {
   color: white;
+  width:70%;
+  float: left;
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
 }
 
 .logo {
-  font-weight: 600;
-  margin-left: 50px;
+  margin: 10px 100px 25px 50px;
+  font-size: 25px;
+  display: inline-block;
+  font-family: futura, sans-serif,monospace;
+}
+#eyeGlass {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.search {
+  font-size: 13.5px;
+  font-family: futura, sans-serif,monospace;
+  display: inline-block;
+}
+
+.headPipe {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  color: #3B4C9B;
+  font-size: 25px;
+  font-weight: bold;
+}
+#plus{
+  font-size: 18px;
+  margin-right: 5px;
+}
+.clickCreate {
+  display: inline-block;
+  font-family: futura, sans-serif,monospace;
+  font-size: 13.5px;
+}
+
+li {
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  position: relative;
+  font-family: futura, sans-serif,monospace;
+  color: white;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+#signUp {
+  background-color: #3CCFCF;
+  padding: 12px 25px 12px 25px;
+  margin-top: 8px;
+  margin-right: 175px;
+}
+
+#signUp:hover {
+  background-color: orange;
+}
+/* Everything above is coding for the Navgation Bar. */
+
+.section2 {
+  background-color: #F5F5F5;
+  position: absolute;
+  width: 100%;
+  top: 85px;
+  margin: 0;
+  padding: 0;
+}
+
+.schoolImage {
+  height: 700px;
+  width: 100%;
+}
+
+.simpleTools {
+  position: absolute;
+  top: 170px;
+  margin-left: 500px;
+  width: 350px;
+  font-family: Ubuntu, sans-serif;
+}
+.simpleTools h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+span {
+  font-size: 30px;
+  font-weight: 700;
 }

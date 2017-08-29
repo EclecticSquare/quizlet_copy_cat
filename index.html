@@ -4,32 +4,49 @@
     <title>Quizlet Copy Cat</title>
     <link rel="stylesheet" style="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   </head>
 
   <body>
     <div class="container">
       <header>
-      <div class="topNavBar">
-        <p class="logo">Quizlet</p>
-        <i class="fa fa-search" aria-hidden="true">   Search</i> <!-- font-awesome used to find the
-          eye glass image -->
-        <p class="headPipe"> | </p>
-    </div>
+        <div class="topNavBar">
+          <p class="logo">Quizlet</p>
+          <p class="search"><i id="eyeGlass" class="fa fa-search" aria-hidden="true"></i>
+            Search</p> <!-- font-awesome used to find the eye glass image -->
+            <p class="headPipe"> | </p>
+            <p class="clickCreate"><i id="plus" class="fa fa-plus-square-o" aria-hidden="true"></i>
+              Create</p><!-- font-awesome used to find and link correct image/button-->
+          </div>
 
-      <div>
-        <div class="create">
-          <i class="fa fa-plus-square-o" aria-hidden="true"></i> <!-- font-awesome used to find and link correct image/button-->
-          <ul>
-            <li>Log in</li>
-            <li>Sign up</li>
-          </ul>
-        </div>
+          <div>
+            <div class="login">
+                <ul>
+                  <a href="https://quizlet.com/"><li id="signUp">Sign up</li></a>
+                  <li>Log in</li>
+                </ul>
+            </div>
+          </div>
+        </header>
       </div>
-      </header>
-    </div>
-    <div class="getStarted">
 
+    <div>
+      <div class="section2">
+        <img class="schoolImage" src="niftyImage.png">
+          <div class="simpleTools">
+            <h1><span>space</span>Simple tools for learning anything.</h1>
+            <p>Search millions of study sets or create your own. Improve your
+              grades by studying with flashcards, games and more.</p>
+            <button class="getStarted">Get started</button>
+          </div>
+      </div>
 
+      <div class="section3">
+        <h1></h1>
+        <p></p>
+        <h5></h5>
+        <h5></h5>
+      </div>
     </div>
 
     <div class="studyCount">
